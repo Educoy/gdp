@@ -1474,62 +1474,78 @@ st.set_page_config(page_title="Test RR.HH.", page_icon="📝", layout="centered"
 st.markdown(
     """
     <style>
-      /* Fondo general */
-      .stApp {
-          background: linear-gradient(160deg, #eef2ff 0%, #f8fafc 45%, #ffffff 100%);
-      }
-      /* Banner de título */
-      .hero {
-          background: linear-gradient(120deg, #4f46e5 0%, #7c3aed 50%, #2563eb 100%);
-          padding: 26px 30px;
-          border-radius: 18px;
-          color: #ffffff;
-          box-shadow: 0 10px 30px rgba(79,70,229,0.25);
-          margin-bottom: 18px;
-      }
-      .hero h1 { color:#fff; margin:0; font-size: 2rem; }
-      .hero p  { color:#e0e7ff; margin:6px 0 0 0; font-size: 0.98rem; }
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+      html, body, [class*="css"], .stMarkdown, button, input, select { font-family: 'Poppins', sans-serif; }
 
-      /* Tarjeta de pregunta */
+      /* Fondo general claro tipo dashboard */
+      .stApp { background: #f4f6fb; }
+      .block-container { padding-top: 2.2rem; }
+
+      /* Cabecera / saludo */
+      .greeting { font-size: 1.6rem; font-weight: 700; color: #1f2a44; margin: 0; }
+      .greeting span { color: #4f7cff; }
+      .subtitle { color: #98a1b5; font-size: 0.9rem; margin: 2px 0 0 0; }
+
+      /* Título de sección */
+      .section-title { font-size: 1.05rem; font-weight: 700; color: #1f2a44; margin: 6px 0 2px 0; }
+
+      /* Tarjetas de estadísticas (Quick Stats) */
+      .stat-card {
+          background: #ffffff; border-radius: 16px; padding: 14px 16px;
+          box-shadow: 0 6px 18px rgba(20,30,60,0.06);
+          border-left: 4px solid var(--c, #4f7cff);
+          display: flex; align-items: center; gap: 12px; min-height: 64px;
+      }
+      .stat-ico {
+          width: 42px; height: 42px; border-radius: 12px; flex: 0 0 42px;
+          display: flex; align-items: center; justify-content: center; font-size: 20px;
+          background: var(--cb, #eaf0ff);
+      }
+      .stat-label { font-size: 0.72rem; color: #9aa3b5; font-weight: 600; line-height: 1.15; }
+      .stat-value { font-size: 1.22rem; font-weight: 700; color: #1f2a44; line-height: 1.2; }
+
+      /* Tarjeta de pregunta con cabecera en degradado (como la imagen) */
       .qcard {
-          background:#ffffff;
-          border:1px solid #e5e7eb;
-          border-left:6px solid #6366f1;
-          border-radius:14px;
-          padding:18px 22px;
-          box-shadow:0 4px 14px rgba(0,0,0,0.05);
-          margin-bottom:10px;
+          background: #ffffff; border-radius: 20px; overflow: hidden;
+          box-shadow: 0 10px 28px rgba(20,30,60,0.09); margin-bottom: 8px;
       }
-      .qcard .qnum {
-          display:inline-block;
-          background:#eef2ff;
-          color:#4338ca;
-          font-weight:600;
-          font-size:0.8rem;
-          padding:3px 12px;
-          border-radius:999px;
-          margin-bottom:10px;
+      .qhead { padding: 18px 24px; }
+      .qbadge {
+          display: inline-block; background: rgba(255,255,255,0.28); color: #ffffff;
+          font-weight: 600; font-size: 0.75rem; padding: 4px 13px; border-radius: 999px;
       }
-      .qcard .qtext { font-size:1.12rem; font-weight:600; color:#1e293b; line-height:1.4; }
+      .qbody { padding: 20px 24px 6px 24px; }
+      .qtext { font-size: 1.13rem; font-weight: 600; color: #27304a; line-height: 1.45; }
 
-      /* Botones */
+      /* Botones tipo "pill" */
       .stButton > button {
-          border-radius:10px;
-          font-weight:600;
-          border:none;
-          transition:transform .05s ease, box-shadow .2s ease;
+          border-radius: 12px; font-weight: 600; border: none; padding: 0.5rem 1rem;
+          transition: transform .06s ease, box-shadow .2s ease;
       }
-      .stButton > button:hover { transform:translateY(-1px); }
+      .stButton > button[kind="primary"] {
+          background: linear-gradient(120deg, #4f7cff, #6a8dff); color: #fff;
+          box-shadow: 0 6px 16px rgba(79,124,255,0.30);
+      }
+      .stButton > button[kind="primary"]:hover {
+          transform: translateY(-1px); box-shadow: 0 10px 22px rgba(79,124,255,0.42); color:#fff;
+      }
+      .stButton > button[kind="secondary"] {
+          background: #ffffff; color: #4f7cff; border: 1.5px solid #e3e8f2;
+      }
+      .stButton > button[kind="secondary"]:hover {
+          border-color: #4f7cff; color: #4f7cff; transform: translateY(-1px);
+      }
 
-      /* Barra de progreso más marcada */
-      .stProgress > div > div > div > div { background:linear-gradient(90deg,#6366f1,#8b5cf6); }
+      /* Barra de progreso */
+      .stProgress > div > div > div > div { background: linear-gradient(90deg,#4f7cff,#9b6bff); }
 
-      /* Radios y checkboxes con un poco más de aire y texto siempre oscuro */
-      div[role="radiogroup"] label, .stCheckbox { padding:2px 0; }
-      div[role="radiogroup"] label p,
-      .stCheckbox label p,
-      div[role="radiogroup"] label,
-      .stCheckbox label { color:#1e293b !important; }
+      /* Radios y checkboxes: aire + texto oscuro */
+      div[role="radiogroup"] label, .stCheckbox { padding: 3px 0; }
+      div[role="radiogroup"] label p, .stCheckbox label p,
+      div[role="radiogroup"] label, .stCheckbox label { color: #27304a !important; }
+
+      /* Barra lateral más limpia */
+      section[data-testid="stSidebar"] { background: #ffffff; border-right: 1px solid #eceff5; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -1569,9 +1585,9 @@ if "orden" not in st.session_state:
 # ---------------------------------------------------------------------------
 st.markdown(
     """
-    <div class="hero">
-      <h1>📝 Test RR.HH.</h1>
-      <p>Gestión de Personas y Comportamiento Organizacional</p>
+    <div>
+      <p class="greeting">📝 Test <span>RR.HH.</span></p>
+      <p class="subtitle">Gestión de Personas y Comportamiento Organizacional</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -1604,7 +1620,6 @@ with st.sidebar:
     st.divider()
     banco = BANCOS[st.session_state.banco_nombre]
     n_total = len(st.session_state.orden)
-    st.metric("Aciertos", f"{st.session_state.aciertos} / {st.session_state.respondidas}")
     st.progress(st.session_state.respondidas / n_total,
                 text=f"Avance: {st.session_state.respondidas}/{n_total}")
 
@@ -1612,8 +1627,34 @@ with st.sidebar:
 banco = BANCOS[st.session_state.banco_nombre]
 n_total = len(st.session_state.orden)
 
-modo_txt = " · 🔁 Repaso de falladas" if st.session_state.get("modo_repaso") else ""
-st.caption(f"Cuestionario activo: **{st.session_state.banco_nombre}** · {n_total} preguntas{modo_txt}")
+# --- Quick Stats (datos reales del intento actual) ---
+_aciertos = st.session_state.aciertos
+_resp = st.session_state.respondidas
+_pct = (_aciertos / _resp * 100) if _resp else 0
+_restantes = n_total - _resp
+
+st.markdown('<p class="section-title">Quick Stats</p>', unsafe_allow_html=True)
+
+
+def _stat(ico, label, value, color, cbg):
+    return (f'<div class="stat-card" style="--c:{color};--cb:{cbg}">'
+            f'<div class="stat-ico" style="color:{color}">{ico}</div>'
+            f'<div><div class="stat-label">{label}</div>'
+            f'<div class="stat-value">{value}</div></div></div>')
+
+
+_c1, _c2, _c3, _c4 = st.columns(4)
+_c1.markdown(_stat("✅", "Aciertos", f"{_aciertos}/{_resp}", "#22c55e", "#e7f8ee"), unsafe_allow_html=True)
+_c2.markdown(_stat("🎯", "Precisión", f"{_pct:.0f}%", "#8b5cf6", "#f0ebff"), unsafe_allow_html=True)
+_c3.markdown(_stat("📊", "Avance", f"{_resp}/{n_total}", "#4f7cff", "#eaf0ff"), unsafe_allow_html=True)
+_c4.markdown(_stat("📚", "Restantes", f"{_restantes}", "#fb923c", "#fff1e6"), unsafe_allow_html=True)
+
+_modo = " · 🔁 Repaso de falladas" if st.session_state.get("modo_repaso") else ""
+st.markdown(
+    f'<p class="subtitle" style="margin-top:12px">Cuestionario activo: '
+    f'<b style="color:#27304a">{st.session_state.banco_nombre}</b> · {n_total} preguntas{_modo}</p>',
+    unsafe_allow_html=True,
+)
 
 # --- ¿Terminó el test? ---
 if st.session_state.idx >= n_total:
@@ -1646,13 +1687,20 @@ if st.session_state.idx >= n_total:
 real_idx = st.session_state.orden[st.session_state.idx]
 p = banco[real_idx]
 
-# Tarjeta de pregunta
+# Tarjeta de pregunta con cabecera en degradado (color rotativo por pregunta)
 tipo_badge = "Selección múltiple" if p["tipo"] == "multi" else "Una respuesta"
+_paleta = [("#6a8dff", "#9b6bff"), ("#34d399", "#10b981"), ("#f472b6", "#a855f7"),
+           ("#38bdf8", "#3b82f6"), ("#fbbf24", "#fb923c"), ("#fb7185", "#ef4444")]
+_g0, _g1 = _paleta[st.session_state.idx % len(_paleta)]
 st.markdown(
     f"""
     <div class="qcard">
-      <span class="qnum">Pregunta {st.session_state.idx + 1} de {n_total} · {tipo_badge}</span>
-      <div class="qtext">{p['pregunta']}</div>
+      <div class="qhead" style="background:linear-gradient(120deg,{_g0},{_g1})">
+        <span class="qbadge">Pregunta {st.session_state.idx + 1} de {n_total} · {tipo_badge}</span>
+      </div>
+      <div class="qbody">
+        <div class="qtext">{p['pregunta']}</div>
+      </div>
     </div>
     """,
     unsafe_allow_html=True,
