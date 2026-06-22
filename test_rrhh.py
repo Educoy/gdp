@@ -1080,12 +1080,347 @@ PREGUNTAS_GUIA_AVANZADO = [
 
 
 # ---------------------------------------------------------------------------
+# Banco de preguntas 4: Certamen — Nivel Difícil
+#   Construido EXCLUSIVAMENTE con el contenido de los 4 archivos del certamen:
+#     - Cap 12 Higiene y Seguridad
+#     - Cap 14 y 15 Derechos de los trabajadores y Relaciones laborales (PDF)
+#     - Clase 10 Adm. de Beneficios y equipos de alto desempeño (PPTX)
+#     - Clase 14 Adm. internacional de RRHH (PPTX)
+#   Estilo aplicado/situacional de las 60 originales, con cifras, artículos y
+#   plazos exactos. Mayor nivel de dificultad.
+# ---------------------------------------------------------------------------
+PREGUNTAS_CERTAMEN_DIFICIL = [
+    # ----- Beneficios legales (Clase 10) -----
+    {
+        "n": 1, "tipo": "single",
+        "pregunta": "Según los beneficios legales en Chile, las vacaciones corresponden a 15 días hábiles al año, con posibilidad de acumular hasta:",
+        "opciones": ["2 períodos", "3 períodos", "1 período (no se acumulan)", "4 períodos"],
+        "correctas": ["2 períodos"],
+    },
+    {
+        "n": 2, "tipo": "single",
+        "pregunta": "La indemnización por años de servicio (despido sin causa justificada) equivale a un mes por año, con un tope de:",
+        "opciones": ["11 años y un tope de monto de 90 UF", "5 años y tope de 60 UF",
+                     "11 años, sin tope de monto", "Sin tope de años, con tope de 90 UF"],
+        "correctas": ["11 años y un tope de monto de 90 UF"],
+    },
+    {
+        "n": 3, "tipo": "single",
+        "pregunta": "Las cotizaciones previsionales obligatorias en Chile contemplan, además del seguro de cesantía:",
+        "opciones": ["10% para AFP y 7% para salud", "7% para AFP y 10% para salud",
+                     "12% para AFP y 5% para salud", "10% para AFP y 10% para salud"],
+        "correctas": ["10% para AFP y 7% para salud"],
+    },
+    {
+        "n": 4, "tipo": "single",
+        "pregunta": "El postnatal parental corresponde a 84 días; si la trabajadora opta por tomarlo en media jornada, se extiende a:",
+        "opciones": ["126 días", "168 días", "112 días", "90 días"],
+        "correctas": ["126 días"],
+    },
+    {
+        "n": 5, "tipo": "single",
+        "pregunta": "Ante el fallecimiento del cónyuge o de un hijo, el trabajador tiene derecho a un permiso de 7 días corridos acompañado de:",
+        "opciones": ["Fuero laboral por un mes", "Fuero laboral por seis meses",
+                     "Indemnización adicional de 90 UF", "Reducción de jornada por un año"],
+        "correctas": ["Fuero laboral por un mes"],
+    },
+    {
+        "n": 6, "tipo": "single",
+        "pregunta": "El permiso por matrimonio o unión civil es de 5 días hábiles consecutivos, que pueden usarse dentro de:",
+        "opciones": ["Los 30 días siguientes al matrimonio", "Los 15 días siguientes",
+                     "El mismo mes calendario", "Los 60 días siguientes"],
+        "correctas": ["Los 30 días siguientes al matrimonio"],
+    },
+    {
+        "n": 7, "tipo": "single",
+        "pregunta": "Todos los siguientes son beneficios LEGALES en Chile, EXCEPTO:",
+        "opciones": ["Bonos de desempeño", "Vacaciones", "Licencias médicas", "Cotizaciones previsionales"],
+        "correctas": ["Bonos de desempeño"],
+    },
+    {
+        "n": 8, "tipo": "single",
+        "pregunta": "El teletrabajo, los horarios adaptables y los días libres adicionales se clasifican como beneficios:",
+        "opciones": ["Flexibles", "Legales", "Voluntarios", "Intangibles"],
+        "correctas": ["Flexibles"],
+    },
+    {
+        "n": 9, "tipo": "single",
+        "pregunta": "El reconocimiento, el desarrollo profesional y el mentoring corresponden a beneficios:",
+        "opciones": ["Intangibles", "Flexibles", "Monetarios", "Legales"],
+        "correctas": ["Intangibles"],
+    },
+    {
+        "n": 10, "tipo": "single",
+        "pregunta": "La generación que prioriza seguridad laboral, pensiones y salud (nacidos entre 1945 y 1965) es:",
+        "opciones": ["Baby Boomers", "Generación X", "Millennials / Generación Y", "Generación Z"],
+        "correctas": ["Baby Boomers"],
+    },
+    {
+        "n": 11, "tipo": "single",
+        "pregunta": "La diversidad, la inclusión, los beneficios digitales y el bienestar mental son preferencias asociadas principalmente a la:",
+        "opciones": ["Generación Z", "Generación X", "Baby Boomers", "Generación Alfa"],
+        "correctas": ["Generación Z"],
+    },
+    {
+        "n": 12, "tipo": "single",
+        "pregunta": "En la implementación de un plan de beneficios, el objetivo principal de la etapa de 'Segmentación' es:",
+        "opciones": ["Identificar perfiles y adaptar los beneficios a las generaciones",
+                     "Medir los KPIs de impacto",
+                     "Alinear el plan con la estrategia de la empresa",
+                     "Conocer la situación actual y las brechas"],
+        "correctas": ["Identificar perfiles y adaptar los beneficios a las generaciones"],
+    },
+    {
+        "n": 13, "tipo": "single",
+        "pregunta": "En Chile, las grandes empresas destinan a beneficios un porcentaje del presupuesto de compensaciones de entre:",
+        "opciones": ["15% y 25%", "5% y 10%", "20% y 30%", "30% y 40%"],
+        "correctas": ["15% y 25%"],
+    },
+    {
+        "n": 14, "tipo": "single",
+        "pregunta": "Un High Performance Work System (HPWS) se define como:",
+        "opciones": ["La combinación específica de prácticas de RRHH, estructuras y procesos que maximiza el conocimiento, habilidades, compromiso, flexibilidad y resiliencia del empleado",
+                     "Un sistema de remuneración basado únicamente en la antigüedad",
+                     "Un plan de beneficios legales obligatorios",
+                     "Un software de control de asistencia del personal"],
+        "correctas": ["La combinación específica de prácticas de RRHH, estructuras y procesos que maximiza el conocimiento, habilidades, compromiso, flexibilidad y resiliencia del empleado"],
+    },
+    {
+        "n": 15, "tipo": "single",
+        "pregunta": "Todos los siguientes son principios fundamentales de un HPWS, EXCEPTO:",
+        "opciones": ["Centralización y reserva de la información",
+                     "Igualitarismo y compromiso",
+                     "Desarrollo del conocimiento",
+                     "Vínculos desempeño-recompensa"],
+        "correctas": ["Centralización y reserva de la información"],
+    },
+
+    # ----- Derechos de los trabajadores y relaciones internas (Cap 14-15) -----
+    {
+        "n": 16, "tipo": "multi",
+        "pregunta": "¿Cuáles son los límites a la privacidad de los trabajadores señalados en la presentación? (selección múltiple)",
+        "opciones": ["Las leyes", "Las políticas y reglamentos internos", "La ética",
+                     "La decisión del sindicato"],
+        "correctas": ["Las leyes", "Las políticas y reglamentos internos", "La ética"],
+    },
+    {
+        "n": 17, "tipo": "single",
+        "pregunta": "El 'intercambio justo' entre lo que el trabajador aporta y lo que recibe, dentro del derecho de protección del trabajo, se denomina:",
+        "opciones": ["Contrato psicológico", "Contrato negligente", "Empleo a voluntad", "Contrato colectivo"],
+        "correctas": ["Contrato psicológico"],
+    },
+    {
+        "n": 18, "tipo": "single",
+        "pregunta": "El concepto de 'Empleo a Voluntad' comprende:",
+        "opciones": ["El derecho a despedir y el derecho a renunciar",
+                     "La obligación de afiliarse a un sindicato",
+                     "El derecho a huelga indefinida",
+                     "La negociación colectiva obligatoria"],
+        "correctas": ["El derecho a despedir y el derecho a renunciar"],
+    },
+    {
+        "n": 19, "tipo": "single",
+        "pregunta": "Para evitar demandas por despidos injustificados se recomienda todo lo siguiente, EXCEPTO:",
+        "opciones": ["Despedir sin necesidad de justificar la causa",
+                     "Despedir solo si existe una razón clara",
+                     "Documentar todos los problemas de desempeño",
+                     "Ser consistente con los empleados en situaciones similares"],
+        "correctas": ["Despedir sin necesidad de justificar la causa"],
+    },
+    {
+        "n": 20, "tipo": "multi",
+        "pregunta": "¿Cuáles de las siguientes forman parte de las relaciones internas con los empleados? (selección múltiple)",
+        "opciones": ["Promociones", "Transferencias", "Jubilación", "Selección"],
+        "correctas": ["Promociones", "Transferencias", "Jubilación"],
+    },
+    {
+        "n": 21, "tipo": "single",
+        "pregunta": "Según el proceso de acción disciplinaria, ésta debe estar apuntada al ___ del empleado, ser justa y aplicarse en el momento indicado.",
+        "opciones": ["Comportamiento", "Carácter", "Actitud", "Rendimiento histórico"],
+        "correctas": ["Comportamiento"],
+    },
+    {
+        "n": 22, "tipo": "single",
+        "pregunta": "Un aspecto clave ('ojo') de la acción disciplinaria es que:",
+        "opciones": ["No afecta solo a una persona, sino a todo el grupo",
+                     "Debe aplicarse en secreto y nunca documentarse",
+                     "Solo la puede aplicar el sindicato",
+                     "Debe basarse en la personalidad del trabajador"],
+        "correctas": ["No afecta solo a una persona, sino a todo el grupo"],
+    },
+
+    # ----- Sindicatos (Cap 14-15) -----
+    {
+        "n": 23, "tipo": "single",
+        "pregunta": "El Art. 212 reconoce el derecho a constituir organizaciones sindicales, sin autorización previa, a:",
+        "opciones": ["Los trabajadores del sector privado y de las empresas del Estado",
+                     "Solo a los trabajadores del sector privado",
+                     "Solo a trabajadores con contrato indefinido",
+                     "Únicamente a los trabajadores mayores de edad"],
+        "correctas": ["Los trabajadores del sector privado y de las empresas del Estado"],
+    },
+    {
+        "n": 24, "tipo": "single",
+        "pregunta": "Según el Art. 214, un trabajador no puede pertenecer a más de un sindicato simultáneamente:",
+        "opciones": ["En función de un mismo empleo", "Bajo ninguna circunstancia",
+                     "Salvo que el empleador lo autorice", "Salvo que tenga contrato indefinido"],
+        "correctas": ["En función de un mismo empleo"],
+    },
+    {
+        "n": 25, "tipo": "single",
+        "pregunta": "De acuerdo con el Art. 214, la afiliación a un sindicato es:",
+        "opciones": ["Voluntaria, personal e indelegable", "Obligatoria y permanente",
+                     "Voluntaria pero delegable", "Automática al ingresar a la empresa"],
+        "correctas": ["Voluntaria, personal e indelegable"],
+    },
+    {
+        "n": 26, "tipo": "single",
+        "pregunta": "Según el Art. 216, el sindicato que agrupa a trabajadores de dos o más empleadores distintos es el sindicato:",
+        "opciones": ["Interempresa", "De empresa", "De trabajadores independientes",
+                     "De eventuales o transitorios"],
+        "correctas": ["Interempresa"],
+    },
+    {
+        "n": 27, "tipo": "single",
+        "pregunta": "El sindicato que agrupa a trabajadores que no dependen de empleador alguno es, según el Art. 216, el sindicato:",
+        "opciones": ["De trabajadores independientes", "Interempresa", "De empresa",
+                     "De eventuales o transitorios"],
+        "correctas": ["De trabajadores independientes"],
+    },
+    {
+        "n": 28, "tipo": "single",
+        "pregunta": "En su rol de representación (Art. 220), las organizaciones sindicales:",
+        "opciones": ["En ningún caso podrán percibir las remuneraciones de sus afiliados",
+                     "Pueden retener parte de la remuneración de sus afiliados",
+                     "Fijan las remuneraciones de la empresa",
+                     "Administran directamente las cotizaciones de los afiliados"],
+        "correctas": ["En ningún caso podrán percibir las remuneraciones de sus afiliados"],
+    },
+    {
+        "n": 29, "tipo": "multi",
+        "pregunta": "Según la presentación, ¿por qué se sindicalizan los empleados? (selección múltiple)",
+        "opciones": ["Insatisfacción con la administración",
+                     "Intereses sociales / oportunidades de liderazgo",
+                     "Presiones para la sindicalización",
+                     "Un aumento de sueldo garantizado por ley"],
+        "correctas": ["Insatisfacción con la administración",
+                      "Intereses sociales / oportunidades de liderazgo",
+                      "Presiones para la sindicalización"],
+    },
+
+    # ----- Negociación colectiva y huelga (Cap 14-15) -----
+    {
+        "n": 30, "tipo": "single",
+        "pregunta": "El Art. 320 define el instrumento colectivo como la convención entre empleadores y trabajadores cuyo objeto es establecer:",
+        "opciones": ["Condiciones comunes de trabajo y remuneraciones u otros beneficios, por un tiempo determinado",
+                     "Únicamente el monto del salario mínimo",
+                     "La estructura organizacional de la empresa",
+                     "El reglamento interno de higiene y seguridad"],
+        "correctas": ["Condiciones comunes de trabajo y remuneraciones u otros beneficios, por un tiempo determinado"],
+    },
+    {
+        "n": 31, "tipo": "multi",
+        "pregunta": "Según el Art. 305, NO pueden negociar colectivamente: (selección múltiple)",
+        "opciones": ["Los gerentes y apoderados con facultades generales de administración",
+                     "Las personas autorizadas para contratar o despedir trabajadores",
+                     "Los trabajadores con contrato de aprendizaje",
+                     "Todos los trabajadores con contrato indefinido"],
+        "correctas": ["Los gerentes y apoderados con facultades generales de administración",
+                      "Las personas autorizadas para contratar o despedir trabajadores",
+                      "Los trabajadores con contrato de aprendizaje"],
+    },
+    {
+        "n": 32, "tipo": "single",
+        "pregunta": "Según el Art. 306, NO serán objeto de negociación colectiva:",
+        "opciones": ["Las materias que restrinjan la facultad del empleador de organizar, dirigir y administrar la empresa",
+                     "Las remuneraciones",
+                     "Los beneficios en especie o en dinero",
+                     "Las condiciones comunes de trabajo"],
+        "correctas": ["Las materias que restrinjan la facultad del empleador de organizar, dirigir y administrar la empresa"],
+    },
+    {
+        "n": 33, "tipo": "single",
+        "pregunta": "Según el Art. 311, las estipulaciones de un instrumento colectivo:",
+        "opciones": ["Reemplazarán, en lo pertinente, a las de los contratos individuales de los trabajadores que sean parte de aquel",
+                     "No producen ningún efecto sobre los contratos individuales",
+                     "Pueden disminuir las remuneraciones del contrato individual",
+                     "Solo aplican a los trabajadores no sindicalizados"],
+        "correctas": ["Reemplazarán, en lo pertinente, a las de los contratos individuales de los trabajadores que sean parte de aquel"],
+    },
+    {
+        "n": 34, "tipo": "single",
+        "pregunta": "De acuerdo con el Art. 345, durante una huelga legal:",
+        "opciones": ["Se prohíbe el reemplazo de los trabajadores en huelga, pero no se afecta la libertad de trabajo de los no involucrados",
+                     "El empleador puede reemplazar libremente a los huelguistas",
+                     "Ningún trabajador de la empresa puede seguir trabajando",
+                     "La empresa debe cerrar por completo"],
+        "correctas": ["Se prohíbe el reemplazo de los trabajadores en huelga, pero no se afecta la libertad de trabajo de los no involucrados"],
+    },
+    {
+        "n": 35, "tipo": "single",
+        "pregunta": "La 'última oferta' del empleador (Art. 346) debe presentarse con a lo menos ___ de anticipación al inicio del período de votación de la huelga.",
+        "opciones": ["2 días", "5 días", "10 días", "45 días"],
+        "correctas": ["2 días"],
+    },
+    {
+        "n": 36, "tipo": "single",
+        "pregunta": "Según el Art. 347, la comisión negociadora sindical debe convocar a la votación de la huelga con a lo menos ___ de anticipación.",
+        "opciones": ["5 días", "2 días", "10 días", "30 días"],
+        "correctas": ["5 días"],
+    },
+    {
+        "n": 37, "tipo": "single",
+        "pregunta": "Según el Art. 348, si NO existe instrumento colectivo vigente, la huelga debe votarse dentro de los últimos 5 días de un total de ___ contados desde la presentación del proyecto de contrato colectivo.",
+        "opciones": ["45 días", "30 días", "60 días", "90 días"],
+        "correctas": ["45 días"],
+    },
+
+    # ----- Administración internacional de RRHH (Clase 14) -----
+    {
+        "n": 38, "tipo": "single",
+        "pregunta": "Una empresa que opera con estructura flexible, concede gran autonomía a sus operaciones independientes del país, pero unifica esas actividades en un todo integrado, es del tipo:",
+        "opciones": ["Transnacional", "Multinacional", "Internacional", "Global"],
+        "correctas": ["Transnacional"],
+    },
+    {
+        "n": 39, "tipo": "single",
+        "pregunta": "Una empresa cuyas filiales se manejan como organizaciones independientes, sin mucha integración entre ellas, es del tipo:",
+        "opciones": ["Multinacional", "Transnacional", "Global", "Internacional"],
+        "correctas": ["Multinacional"],
+    },
+    {
+        "n": 40, "tipo": "single",
+        "pregunta": "Un empleado cuya nacionalidad es diferente tanto a la del país anfitrión como a la del país de origen de la empresa se denomina:",
+        "opciones": ["Ciudadano de un tercer país", "Expatriado",
+                     "Ciudadano del país anfitrión", "Trabajador global"],
+        "correctas": ["Ciudadano de un tercer país"],
+    },
+    {
+        "n": 41, "tipo": "single",
+        "pregunta": "La ITUC, organización laboral internacional, corresponde a:",
+        "opciones": ["La Confederación Internacional de Sindicatos",
+                     "La Organización Internacional del Trabajo",
+                     "Un consejo de empleados europeo",
+                     "Una mutualidad internacional"],
+        "correctas": ["La Confederación Internacional de Sindicatos"],
+    },
+    {
+        "n": 42, "tipo": "single",
+        "pregunta": "La codeterminación, que por ley exige la representación de los empleados en el consejo de administración, es característica de:",
+        "opciones": ["Alemania", "Japón", "Estados Unidos", "Chile"],
+        "correctas": ["Alemania"],
+    },
+]
+
+
+# ---------------------------------------------------------------------------
 # Cuestionarios disponibles
 # ---------------------------------------------------------------------------
 BANCOS = {
     "📘 Test RR.HH. (60 preguntas)": PREGUNTAS,
     "📗 Guía de Estudio del Certamen": PREGUNTAS_GUIA,
     "📕 Guía — Nivel Avanzado": PREGUNTAS_GUIA_AVANZADO,
+    "📙 Certamen — Nivel Difícil": PREGUNTAS_CERTAMEN_DIFICIL,
 }
 
 
