@@ -1096,6 +1096,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "pregunta": "Según los beneficios legales en Chile, las vacaciones corresponden a 15 días hábiles al año, con posibilidad de acumular hasta:",
         "opciones": ["2 períodos", "3 períodos", "1 período (no se acumulan)", "4 períodos"],
         "correctas": ["2 períodos"],
+        "explicacion": "Clase 10: las vacaciones son 15 días hábiles al año, acumulables hasta 2 períodos.",
     },
     {
         "n": 2, "tipo": "single",
@@ -1103,6 +1104,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["11 años y un tope de monto de 90 UF", "5 años y tope de 60 UF",
                      "11 años, sin tope de monto", "Sin tope de años, con tope de 90 UF"],
         "correctas": ["11 años y un tope de monto de 90 UF"],
+        "explicacion": "Clase 10: un mes por año, con tope de 11 años y tope de monto de 90 UF, aplicable a despidos sin causa justificada.",
     },
     {
         "n": 3, "tipo": "single",
@@ -1110,12 +1112,14 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["10% para AFP y 7% para salud", "7% para AFP y 10% para salud",
                      "12% para AFP y 5% para salud", "10% para AFP y 10% para salud"],
         "correctas": ["10% para AFP y 7% para salud"],
+        "explicacion": "Clase 10: cotizaciones de 10% AFP, 7% salud (Fonasa/Isapre) y seguro de cesantía.",
     },
     {
         "n": 4, "tipo": "single",
         "pregunta": "El postnatal parental corresponde a 84 días; si la trabajadora opta por tomarlo en media jornada, se extiende a:",
         "opciones": ["126 días", "168 días", "112 días", "90 días"],
         "correctas": ["126 días"],
+        "explicacion": "Clase 10: postnatal parental de 84 días, o 126 días si se toma en media jornada.",
     },
     {
         "n": 5, "tipo": "single",
@@ -1123,6 +1127,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["Fuero laboral por un mes", "Fuero laboral por seis meses",
                      "Indemnización adicional de 90 UF", "Reducción de jornada por un año"],
         "correctas": ["Fuero laboral por un mes"],
+        "explicacion": "Clase 10: por muerte de cónyuge o hijo, 7 días corridos con fuero laboral por un mes (padre/madre 3 días, hermano 1 día).",
     },
     {
         "n": 6, "tipo": "single",
@@ -1130,36 +1135,42 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["Los 30 días siguientes al matrimonio", "Los 15 días siguientes",
                      "El mismo mes calendario", "Los 60 días siguientes"],
         "correctas": ["Los 30 días siguientes al matrimonio"],
+        "explicacion": "Clase 10: 5 días hábiles consecutivos, dentro de los 30 días siguientes al matrimonio o unión civil.",
     },
     {
         "n": 7, "tipo": "single",
         "pregunta": "Todos los siguientes son beneficios LEGALES en Chile, EXCEPTO:",
         "opciones": ["Bonos de desempeño", "Vacaciones", "Licencias médicas", "Cotizaciones previsionales"],
         "correctas": ["Bonos de desempeño"],
+        "explicacion": "Clase 10: los bonos de desempeño son un beneficio VOLUNTARIO; vacaciones, licencias médicas y cotizaciones son legales.",
     },
     {
         "n": 8, "tipo": "single",
         "pregunta": "El teletrabajo, los horarios adaptables y los días libres adicionales se clasifican como beneficios:",
         "opciones": ["Flexibles", "Legales", "Voluntarios", "Intangibles"],
         "correctas": ["Flexibles"],
+        "explicacion": "Clase 10: los beneficios flexibles incluyen días libres adicionales, teletrabajo y horarios adaptables.",
     },
     {
         "n": 9, "tipo": "single",
         "pregunta": "El reconocimiento, el desarrollo profesional y el mentoring corresponden a beneficios:",
         "opciones": ["Intangibles", "Flexibles", "Monetarios", "Legales"],
         "correctas": ["Intangibles"],
+        "explicacion": "Clase 10: los beneficios intangibles son el reconocimiento, el desarrollo profesional y el mentoring.",
     },
     {
         "n": 10, "tipo": "single",
         "pregunta": "La generación que prioriza seguridad laboral, pensiones y salud (nacidos entre 1945 y 1965) es:",
         "opciones": ["Baby Boomers", "Generación X", "Millennials / Generación Y", "Generación Z"],
         "correctas": ["Baby Boomers"],
+        "explicacion": "Clase 10: los Baby Boomers (1945-1965) priorizan seguridad laboral, pensiones y salud.",
     },
     {
         "n": 11, "tipo": "single",
         "pregunta": "La diversidad, la inclusión, los beneficios digitales y el bienestar mental son preferencias asociadas principalmente a la:",
         "opciones": ["Generación Z", "Generación X", "Baby Boomers", "Generación Alfa"],
         "correctas": ["Generación Z"],
+        "explicacion": "Clase 10: la Generación Z (2000-2015) valora diversidad, inclusión, beneficios digitales y bienestar mental.",
     },
     {
         "n": 12, "tipo": "single",
@@ -1169,12 +1180,14 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Alinear el plan con la estrategia de la empresa",
                      "Conocer la situación actual y las brechas"],
         "correctas": ["Identificar perfiles y adaptar los beneficios a las generaciones"],
+        "explicacion": "Clase 10: la etapa 3 (Segmentación) busca identificar perfiles y adaptar los beneficios a las generaciones. (Las 7 etapas: Diagnóstico, Definición de objetivos, Segmentación, Diseño, Comunicación, Implementación, Evaluación.)",
     },
     {
         "n": 13, "tipo": "single",
         "pregunta": "En Chile, las grandes empresas destinan a beneficios un porcentaje del presupuesto de compensaciones de entre:",
         "opciones": ["15% y 25%", "5% y 10%", "20% y 30%", "30% y 40%"],
         "correctas": ["15% y 25%"],
+        "explicacion": "Clase 10: en Chile las grandes empresas destinan 15%-25% del presupuesto de compensaciones (el 20%-30% corresponde al nivel internacional).",
     },
     {
         "n": 14, "tipo": "single",
@@ -1184,6 +1197,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Un plan de beneficios legales obligatorios",
                      "Un software de control de asistencia del personal"],
         "correctas": ["La combinación específica de prácticas de RRHH, estructuras y procesos que maximiza el conocimiento, habilidades, compromiso, flexibilidad y resiliencia del empleado"],
+        "explicacion": "Clase 10: un HPWS combina prácticas de RRHH, estructuras y procesos que maximizan conocimiento, habilidades, compromiso, flexibilidad y resiliencia para mejorar la competitividad.",
     },
     {
         "n": 15, "tipo": "single",
@@ -1193,6 +1207,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Desarrollo del conocimiento",
                      "Vínculos desempeño-recompensa"],
         "correctas": ["Centralización y reserva de la información"],
+        "explicacion": "Clase 10: los 4 principios son igualitarismo y compromiso, INFORMACIÓN COMPARTIDA y confianza, desarrollo del conocimiento y vínculos desempeño-recompensa; 'centralizar la información' es lo contrario.",
     },
 
     # ----- Derechos de los trabajadores y relaciones internas (Cap 14-15) -----
@@ -1202,12 +1217,14 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["Las leyes", "Las políticas y reglamentos internos", "La ética",
                      "La decisión del sindicato"],
         "correctas": ["Las leyes", "Las políticas y reglamentos internos", "La ética"],
+        "explicacion": "Cap 14-15: los límites a la privacidad del trabajador son las leyes, las políticas y reglamentos internos, y la ética.",
     },
     {
         "n": 17, "tipo": "single",
         "pregunta": "El 'intercambio justo' entre lo que el trabajador aporta y lo que recibe, dentro del derecho de protección del trabajo, se denomina:",
         "opciones": ["Contrato psicológico", "Contrato negligente", "Empleo a voluntad", "Contrato colectivo"],
         "correctas": ["Contrato psicológico"],
+        "explicacion": "Cap 14-15: el contrato psicológico es el 'intercambio justo' dentro del derecho de protección del trabajo.",
     },
     {
         "n": 18, "tipo": "single",
@@ -1217,6 +1234,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "El derecho a huelga indefinida",
                      "La negociación colectiva obligatoria"],
         "correctas": ["El derecho a despedir y el derecho a renunciar"],
+        "explicacion": "Cap 14-15: el 'Empleo a Voluntad' comprende el derecho a despedir y el derecho a renunciar.",
     },
     {
         "n": 19, "tipo": "single",
@@ -1226,18 +1244,21 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Documentar todos los problemas de desempeño",
                      "Ser consistente con los empleados en situaciones similares"],
         "correctas": ["Despedir sin necesidad de justificar la causa"],
+        "explicacion": "Cap 14-15: se recomienda despedir solo con razón clara, seguir normas, documentar y ser consistente; despedir sin justificar es justamente lo que genera demandas.",
     },
     {
         "n": 20, "tipo": "multi",
         "pregunta": "¿Cuáles de las siguientes forman parte de las relaciones internas con los empleados? (selección múltiple)",
         "opciones": ["Promociones", "Transferencias", "Jubilación", "Selección"],
         "correctas": ["Promociones", "Transferencias", "Jubilación"],
+        "explicacion": "Cap 14-15: las relaciones internas abarcan promociones, transferencias, renuncias, despidos, jubilación y acciones disciplinarias. La selección es parte del reclutamiento, no de las relaciones internas.",
     },
     {
         "n": 21, "tipo": "single",
         "pregunta": "Según el proceso de acción disciplinaria, ésta debe estar apuntada al ___ del empleado, ser justa y aplicarse en el momento indicado.",
         "opciones": ["Comportamiento", "Carácter", "Actitud", "Rendimiento histórico"],
         "correctas": ["Comportamiento"],
+        "explicacion": "Cap 14-15: la acción disciplinaria debe apuntar al comportamiento, ser justa y darse en el momento indicado.",
     },
     {
         "n": 22, "tipo": "single",
@@ -1247,6 +1268,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Solo la puede aplicar el sindicato",
                      "Debe basarse en la personalidad del trabajador"],
         "correctas": ["No afecta solo a una persona, sino a todo el grupo"],
+        "explicacion": "Cap 14-15: 'ojo': la acción disciplinaria no afecta solo a una persona, sino a todo el grupo.",
     },
 
     # ----- Sindicatos (Cap 14-15) -----
@@ -1258,6 +1280,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Solo a trabajadores con contrato indefinido",
                      "Únicamente a los trabajadores mayores de edad"],
         "correctas": ["Los trabajadores del sector privado y de las empresas del Estado"],
+        "explicacion": "Art. 212: reconoce a los trabajadores del sector privado y de las empresas del Estado el derecho a constituir sindicatos sin autorización previa.",
     },
     {
         "n": 24, "tipo": "single",
@@ -1265,6 +1288,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["En función de un mismo empleo", "Bajo ninguna circunstancia",
                      "Salvo que el empleador lo autorice", "Salvo que tenga contrato indefinido"],
         "correctas": ["En función de un mismo empleo"],
+        "explicacion": "Art. 214: la prohibición es pertenecer a más de un sindicato 'en función de un mismo empleo' (con otro empleo distinto sí podría).",
     },
     {
         "n": 25, "tipo": "single",
@@ -1272,6 +1296,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["Voluntaria, personal e indelegable", "Obligatoria y permanente",
                      "Voluntaria pero delegable", "Automática al ingresar a la empresa"],
         "correctas": ["Voluntaria, personal e indelegable"],
+        "explicacion": "Art. 214: la afiliación a un sindicato es voluntaria, personal e indelegable; nadie puede ser obligado a afiliarse.",
     },
     {
         "n": 26, "tipo": "single",
@@ -1279,6 +1304,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["Interempresa", "De empresa", "De trabajadores independientes",
                      "De eventuales o transitorios"],
         "correctas": ["Interempresa"],
+        "explicacion": "Art. 216: el sindicato interempresa agrupa a trabajadores de dos o más empleadores distintos.",
     },
     {
         "n": 27, "tipo": "single",
@@ -1286,6 +1312,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["De trabajadores independientes", "Interempresa", "De empresa",
                      "De eventuales o transitorios"],
         "correctas": ["De trabajadores independientes"],
+        "explicacion": "Art. 216: el sindicato de trabajadores independientes agrupa a quienes no dependen de empleador alguno.",
     },
     {
         "n": 28, "tipo": "single",
@@ -1295,6 +1322,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Fijan las remuneraciones de la empresa",
                      "Administran directamente las cotizaciones de los afiliados"],
         "correctas": ["En ningún caso podrán percibir las remuneraciones de sus afiliados"],
+        "explicacion": "Art. 220 (rol de representación): en ningún caso las organizaciones sindicales podrán percibir las remuneraciones de sus afiliados.",
     },
     {
         "n": 29, "tipo": "multi",
@@ -1306,6 +1334,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "correctas": ["Insatisfacción con la administración",
                       "Intereses sociales / oportunidades de liderazgo",
                       "Presiones para la sindicalización"],
+        "explicacion": "Cap 14-15: se sindicalizan por insatisfacción con la administración, intereses sociales/liderazgo y presiones (de compañeros u organización). No hay un aumento garantizado por ley.",
     },
 
     # ----- Negociación colectiva y huelga (Cap 14-15) -----
@@ -1317,6 +1346,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "La estructura organizacional de la empresa",
                      "El reglamento interno de higiene y seguridad"],
         "correctas": ["Condiciones comunes de trabajo y remuneraciones u otros beneficios, por un tiempo determinado"],
+        "explicacion": "Art. 320: el instrumento colectivo establece condiciones comunes de trabajo y remuneraciones u otros beneficios, por un tiempo determinado.",
     },
     {
         "n": 31, "tipo": "multi",
@@ -1328,6 +1358,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "correctas": ["Los gerentes y apoderados con facultades generales de administración",
                       "Las personas autorizadas para contratar o despedir trabajadores",
                       "Los trabajadores con contrato de aprendizaje"],
+        "explicacion": "Art. 305: no negocian colectivamente los aprendices y de obra/faena transitoria, los gerentes/apoderados con facultades generales de administración, y quienes pueden contratar o despedir. Tener contrato indefinido no impide negociar.",
     },
     {
         "n": 32, "tipo": "single",
@@ -1337,6 +1368,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Los beneficios en especie o en dinero",
                      "Las condiciones comunes de trabajo"],
         "correctas": ["Las materias que restrinjan la facultad del empleador de organizar, dirigir y administrar la empresa"],
+        "explicacion": "Art. 306: se negocian remuneraciones, beneficios y condiciones comunes de trabajo, pero NO las materias que limiten la facultad del empleador de organizar, dirigir y administrar la empresa.",
     },
     {
         "n": 33, "tipo": "single",
@@ -1346,6 +1378,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Pueden disminuir las remuneraciones del contrato individual",
                      "Solo aplican a los trabajadores no sindicalizados"],
         "correctas": ["Reemplazarán, en lo pertinente, a las de los contratos individuales de los trabajadores que sean parte de aquel"],
+        "explicacion": "Art. 311: las estipulaciones del instrumento colectivo reemplazan en lo pertinente a las de los contratos individuales, sin poder disminuir las remuneraciones o beneficios del trabajador.",
     },
     {
         "n": 34, "tipo": "single",
@@ -1355,24 +1388,28 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Ningún trabajador de la empresa puede seguir trabajando",
                      "La empresa debe cerrar por completo"],
         "correctas": ["Se prohíbe el reemplazo de los trabajadores en huelga, pero no se afecta la libertad de trabajo de los no involucrados"],
+        "explicacion": "Art. 345: la huelga es un derecho colectivo; se prohíbe el reemplazo de los huelguistas, pero no se afecta la libertad de trabajo de quienes no participan.",
     },
     {
         "n": 35, "tipo": "single",
         "pregunta": "La 'última oferta' del empleador (Art. 346) debe presentarse con a lo menos ___ de anticipación al inicio del período de votación de la huelga.",
         "opciones": ["2 días", "5 días", "10 días", "45 días"],
         "correctas": ["2 días"],
+        "explicacion": "Art. 346: la 'última oferta' del empleador se presenta con a lo menos 2 días de anticipación al inicio del período de votación.",
     },
     {
         "n": 36, "tipo": "single",
         "pregunta": "Según el Art. 347, la comisión negociadora sindical debe convocar a la votación de la huelga con a lo menos ___ de anticipación.",
         "opciones": ["5 días", "2 días", "10 días", "30 días"],
         "correctas": ["5 días"],
+        "explicacion": "Art. 347: la comisión negociadora sindical convoca a la votación de la huelga con a lo menos 5 días de anticipación.",
     },
     {
         "n": 37, "tipo": "single",
         "pregunta": "Según el Art. 348, si NO existe instrumento colectivo vigente, la huelga debe votarse dentro de los últimos 5 días de un total de ___ contados desde la presentación del proyecto de contrato colectivo.",
         "opciones": ["45 días", "30 días", "60 días", "90 días"],
         "correctas": ["45 días"],
+        "explicacion": "Art. 348: sin instrumento vigente, la huelga se vota en los últimos 5 días de un total de 45 contados desde la presentación del proyecto de contrato colectivo.",
     },
 
     # ----- Administración internacional de RRHH (Clase 14) -----
@@ -1381,12 +1418,14 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "pregunta": "Una empresa que opera con estructura flexible, concede gran autonomía a sus operaciones independientes del país, pero unifica esas actividades en un todo integrado, es del tipo:",
         "opciones": ["Transnacional", "Multinacional", "Internacional", "Global"],
         "correctas": ["Transnacional"],
+        "explicacion": "Clase 14: la organización transnacional combina gran autonomía de las operaciones con la integración de todas ellas en un todo.",
     },
     {
         "n": 39, "tipo": "single",
         "pregunta": "Una empresa cuyas filiales se manejan como organizaciones independientes, sin mucha integración entre ellas, es del tipo:",
         "opciones": ["Multinacional", "Transnacional", "Global", "Internacional"],
         "correctas": ["Multinacional"],
+        "explicacion": "Clase 14: en la organización multinacional las filiales se manejan como organizaciones independientes, con poca integración.",
     },
     {
         "n": 40, "tipo": "single",
@@ -1394,6 +1433,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
         "opciones": ["Ciudadano de un tercer país", "Expatriado",
                      "Ciudadano del país anfitrión", "Trabajador global"],
         "correctas": ["Ciudadano de un tercer país"],
+        "explicacion": "Clase 14: el ciudadano de un tercer país tiene una nacionalidad distinta a la del país anfitrión y a la del país de origen de la empresa.",
     },
     {
         "n": 41, "tipo": "single",
@@ -1403,12 +1443,14 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
                      "Un consejo de empleados europeo",
                      "Una mutualidad internacional"],
         "correctas": ["La Confederación Internacional de Sindicatos"],
+        "explicacion": "Clase 14: la ITUC es la Confederación Internacional de Sindicatos, que promueve los derechos de los trabajadores a nivel global.",
     },
     {
         "n": 42, "tipo": "single",
         "pregunta": "La codeterminación, que por ley exige la representación de los empleados en el consejo de administración, es característica de:",
         "opciones": ["Alemania", "Japón", "Estados Unidos", "Chile"],
         "correctas": ["Alemania"],
+        "explicacion": "Clase 14: la codeterminación, que exige por ley la representación de los empleados en el consejo de administración, es propia de Alemania.",
     },
 ]
 
@@ -1497,18 +1539,22 @@ st.markdown(
 # ---------------------------------------------------------------------------
 # Estado de la sesión
 # ---------------------------------------------------------------------------
-def iniciar_estado(mezclar=False):
-    """Reinicia el cuestionario activo desde cero."""
+def iniciar_estado(mezclar=False, orden=None, modo_repaso=False):
+    """Reinicia el cuestionario activo. Si se pasa `orden`, usa ese subconjunto
+    de preguntas (por ejemplo, para repasar solo las falladas)."""
     banco = BANCOS[st.session_state.banco_nombre]
-    orden = list(range(len(banco)))
-    if mezclar:
-        random.shuffle(orden)
+    if orden is None:
+        orden = list(range(len(banco)))
+        if mezclar:
+            random.shuffle(orden)
     st.session_state.orden = orden
     st.session_state.idx = 0
     st.session_state.aciertos = 0
     st.session_state.respondidas = 0
     st.session_state.comprobada = False
     st.session_state.ultimo_ok = None
+    st.session_state.falladas = []          # índices reales de preguntas erradas
+    st.session_state.modo_repaso = modo_repaso
 
 
 # Cuestionario por defecto + primera inicialización
@@ -1557,19 +1603,21 @@ with st.sidebar:
 
     st.divider()
     banco = BANCOS[st.session_state.banco_nombre]
-    total = len(banco)
+    n_total = len(st.session_state.orden)
     st.metric("Aciertos", f"{st.session_state.aciertos} / {st.session_state.respondidas}")
-    st.progress(st.session_state.respondidas / total,
-                text=f"Avance: {st.session_state.respondidas}/{total}")
+    st.progress(st.session_state.respondidas / n_total,
+                text=f"Avance: {st.session_state.respondidas}/{n_total}")
 
 # Banco activo (también disponible fuera del sidebar)
 banco = BANCOS[st.session_state.banco_nombre]
+n_total = len(st.session_state.orden)
 
-st.caption(f"Cuestionario activo: **{st.session_state.banco_nombre}** · {len(banco)} preguntas")
+modo_txt = " · 🔁 Repaso de falladas" if st.session_state.get("modo_repaso") else ""
+st.caption(f"Cuestionario activo: **{st.session_state.banco_nombre}** · {n_total} preguntas{modo_txt}")
 
 # --- ¿Terminó el test? ---
-if st.session_state.idx >= len(banco):
-    pct = (st.session_state.aciertos / len(banco)) * 100
+if st.session_state.idx >= n_total:
+    pct = (st.session_state.aciertos / n_total) * 100
     if pct >= 80:
         emoji, msg = "🏆", "¡Excelente dominio!"
     elif pct >= 50:
@@ -1578,9 +1626,18 @@ if st.session_state.idx >= len(banco):
         emoji, msg = "📚", "A repasar un poco más."
     st.success(f"### ¡Test terminado! {emoji}\n\n"
                f"{msg}\n\n"
-               f"Puntaje final: **{st.session_state.aciertos} / {len(banco)}**  "
+               f"Puntaje final: **{st.session_state.aciertos} / {n_total}**  "
                f"({pct:.1f}%)")
-    if st.button("↩️ Volver a empezar", type="primary"):
+
+    falladas = st.session_state.get("falladas", [])
+    if falladas:
+        st.warning(f"Tuviste **{len(falladas)}** pregunta(s) incorrecta(s).")
+        if st.button(f"🔁 Repasar mis {len(falladas)} preguntas falladas",
+                     type="primary", use_container_width=True):
+            iniciar_estado(orden=list(falladas), modo_repaso=True)
+            st.rerun()
+
+    if st.button("↩️ Volver a empezar (todo el cuestionario)", use_container_width=True):
         iniciar_estado(mezclar=False)
         st.rerun()
     st.stop()
@@ -1594,7 +1651,7 @@ tipo_badge = "Selección múltiple" if p["tipo"] == "multi" else "Una respuesta"
 st.markdown(
     f"""
     <div class="qcard">
-      <span class="qnum">Pregunta {st.session_state.idx + 1} de {len(banco)} · {tipo_badge}</span>
+      <span class="qnum">Pregunta {st.session_state.idx + 1} de {n_total} · {tipo_badge}</span>
       <div class="qtext">{p['pregunta']}</div>
     </div>
     """,
@@ -1631,11 +1688,13 @@ with col1:
                 st.session_state.respondidas += 1
                 if ok:
                     st.session_state.aciertos += 1
+                else:
+                    st.session_state.falladas.append(real_idx)
                 st.rerun()
 
 with col2:
     if st.session_state.comprobada:
-        es_ultima = st.session_state.idx == len(banco) - 1
+        es_ultima = st.session_state.idx == n_total - 1
         etiqueta = "🏁 Ver resultado" if es_ultima else "➡️ Siguiente pregunta"
         if st.button(etiqueta, type="primary", use_container_width=True):
             st.session_state.idx += 1
@@ -1651,3 +1710,5 @@ if st.session_state.comprobada:
         st.error("Incorrecto.")
     correctas_txt = "\n".join(f"- {c}" for c in p["correctas"])
     st.info(f"**Respuesta(s) correcta(s):**\n{correctas_txt}")
+    if p.get("explicacion"):
+        st.markdown(f"> 💡 **Explicación:** {p['explicacion']}")
