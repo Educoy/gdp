@@ -457,6 +457,83 @@ PREGUNTAS = [
                      "Evaluación cualitativa", "Entrevista de selección"],
         "correctas": ["Entrevista de salida"],
     },
+    # --- Preguntas adicionales del Certamen 2 (2021), solo temas de los 4 PPTs ---
+    {
+        "n": 61, "tipo": "single",
+        "pregunta": "¿Cuál es la principal razón por la que se forman sindicatos en las empresas?",
+        "opciones": ["Para una adecuada representación de los trabajadores frente al empleador",
+                     "Para mejorar el nivel de organización de los empleados",
+                     "Para poder negociar colectivamente",
+                     "Para facilitar las comunicaciones con los empleados",
+                     "Para generar una instancia de reclamos y quejas ante el empleador"],
+        "correctas": ["Para una adecuada representación de los trabajadores frente al empleador"],
+    },
+    {
+        "n": 62, "tipo": "single",
+        "pregunta": "¿Cuál de los siguientes NO es un ámbito de acción de los sindicatos?",
+        "opciones": ["Pedir que se respete el cumplimiento legal del máximo de 2 horas extra diarias",
+                     "Velar por las condiciones de seguridad e higiene de los trabajadores",
+                     "Denunciar irregularidades en el otorgamiento de las vacaciones al personal",
+                     "Solicitar a la empresa cambios de productos o clientes por la dificultad que genera al trabajador",
+                     "Solicitar a la empresa cumplir con los beneficios establecidos en el instrumento colectivo"],
+        "correctas": ["Solicitar a la empresa cambios de productos o clientes por la dificultad que genera al trabajador"],
+    },
+    {
+        "n": 63, "tipo": "single",
+        "pregunta": "Considerando la tasa de sindicalización en Chile y su evolución, y su relación con otros países del mundo, ¿cuál de las siguientes aseveraciones es correcta?",
+        "opciones": ["Si bien hubo un crecimiento en los últimos 5 años, la tasa no supera el 25%",
+                     "Chile supera a los países de la comunidad europea que promedian un 35%",
+                     "Chile está entre los países que más afiliados tiene en el mundo",
+                     "La principal razón por la no creación de sindicatos es el miedo a perder el empleo",
+                     "El crecimiento de los últimos años se debió a la reforma laboral alcanzando un 35%"],
+        "correctas": ["Si bien hubo un crecimiento en los últimos 5 años, la tasa no supera el 25%"],
+    },
+    {
+        "n": 64, "tipo": "single",
+        "pregunta": "Ud. es el Gerente de RRHH de una empresa donde recién se formó un sindicato. ¿Cuál sería su principal preocupación estratégica en el corto plazo?",
+        "opciones": ["Evaluar qué nuevos beneficios le va a ofrecer al sindicato antes que se los pidan",
+                     "Empezar a preparar una posible presentación de proyecto de negociación colectiva",
+                     "Que las personas no ingresen al sindicato",
+                     "Que los supervisores y jefaturas traten bien a los dirigentes",
+                     "Disponer de la lista de las personas sindicalizadas para identificarlas"],
+        "correctas": ["Evaluar qué nuevos beneficios le va a ofrecer al sindicato antes que se los pidan"],
+    },
+    {
+        "n": 65, "tipo": "single",
+        "pregunta": "¿Cuál de las siguientes recomendaciones NO se debe seguir al momento de enfrentar un proceso de negociación colectiva?",
+        "opciones": ["Focalizar su estrategia Ganar-Ganar para lograr el mejor de los acuerdos",
+                     "Potenciar a los dirigentes sindicales para que no sean meros representantes",
+                     "Disponer de ejemplos claros para contraargumentar siempre lo pedido por el sindicato",
+                     "Definir claros y expeditos canales de comunicación para dar libertad al rol del dirigente",
+                     "Buscar la aprobación de las mayorías y extender beneficios a los no sindicalizados"],
+        "correctas": ["Disponer de ejemplos claros para contraargumentar siempre lo pedido por el sindicato"],
+    },
+    {
+        "n": 66, "tipo": "single",
+        "pregunta": "Si Ud. desea mejorar los resultados en su organización, ¿qué tipo de beneficio implementaría?",
+        "opciones": ["Bono de productividad", "Bonos de asistencia", "Bonos de turno",
+                     "Comisión de servicios", "Bono de vacaciones"],
+        "correctas": ["Bono de productividad"],
+    },
+    {
+        "n": 67, "tipo": "single",
+        "pregunta": "En el proceso de acción disciplinaria, ¿qué debe ocurrir inmediatamente después de que la gerencia establezca las reglas?",
+        "opciones": ["Comunicar las reglas a los empleados", "Evaluar el desempeño",
+                     "Comparar el desempeño con las reglas", "Establecer metas organizacionales"],
+        "correctas": ["Comunicar las reglas a los empleados"],
+    },
+    {
+        "n": 68, "tipo": "single",
+        "pregunta": "Para ser más eficaz, la acción disciplinaria debe ser un proceso de ___.",
+        "opciones": ["Aprendizaje", "Castigo", "Sanción inmediata", "Control"],
+        "correctas": ["Aprendizaje"],
+    },
+    {
+        "n": 69, "tipo": "single",
+        "pregunta": "Todas las personas que prestan servicios a una organización deben ser incorporadas a las políticas de relaciones internas con los empleados.",
+        "opciones": ["Verdadero", "Falso"],
+        "correctas": ["Falso"],
+    },
 ]
 
 
@@ -1459,7 +1536,7 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
 # Cuestionarios disponibles
 # ---------------------------------------------------------------------------
 BANCOS = {
-    "📘 Test RR.HH. (60 preguntas)": PREGUNTAS,
+    "📘 Test RR.HH. (69 preguntas)": PREGUNTAS,
     "📗 Guía de Estudio del Certamen": PREGUNTAS_GUIA,
     "📕 Guía — Nivel Avanzado": PREGUNTAS_GUIA_AVANZADO,
     "📙 Certamen — Nivel Difícil": PREGUNTAS_CERTAMEN_DIFICIL,
