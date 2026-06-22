@@ -1533,6 +1533,165 @@ PREGUNTAS_CERTAMEN_DIFICIL = [
 
 
 # ---------------------------------------------------------------------------
+# Banco de preguntas 5: Nivel Experto
+#   Pocas preguntas, máxima dificultad. Basado SOLO en los 4 PPTs del certamen.
+#   Requiere cálculos, plazos exactos, umbrales y distinciones finas.
+# ---------------------------------------------------------------------------
+PREGUNTAS_EXPERTO = [
+    {
+        "n": 1, "tipo": "single",
+        "pregunta": "Marta es despedida sin causa justificada tras 14 años continuos en la empresa. ¿A cuántos años de indemnización por años de servicio tiene derecho como máximo?",
+        "opciones": ["11 años", "14 años", "6 años", "Sin tope: los 14 años completos"],
+        "correctas": ["11 años"],
+        "explicacion": "Clase 10: la indemnización por años de servicio es un mes por año, con tope máximo de 11 años (y tope de monto de 90 UF).",
+    },
+    {
+        "n": 2, "tipo": "single",
+        "pregunta": "Sumando solo las cotizaciones previsionales obligatorias de AFP y de salud (sin considerar el seguro de cesantía), ¿qué porcentaje de la remuneración imponible se descuenta?",
+        "opciones": ["17%", "13%", "20%", "10%"],
+        "correctas": ["17%"],
+        "explicacion": "Clase 10: 10% AFP + 7% salud = 17% (además del seguro de cesantía).",
+    },
+    {
+        "n": 3, "tipo": "single",
+        "pregunta": "Un trabajador acumula el máximo de vacaciones permitido sin tomarlas. ¿A cuántos días hábiles equivale ese máximo?",
+        "opciones": ["30 días hábiles (2 períodos)", "15 días hábiles (1 período)",
+                     "45 días hábiles (3 períodos)", "20 días hábiles"],
+        "correctas": ["30 días hábiles (2 períodos)"],
+        "explicacion": "Clase 10: 15 días hábiles por período, acumulables hasta 2 períodos → 30 días hábiles.",
+    },
+    {
+        "n": 4, "tipo": "single",
+        "pregunta": "Por el fallecimiento del padre o de la madre, el permiso legal del trabajador es de:",
+        "opciones": ["3 días", "7 días corridos", "1 día", "5 días hábiles"],
+        "correctas": ["3 días"],
+        "explicacion": "Clase 10: cónyuge o hijo, 7 días corridos (con fuero); padre o madre, 3 días; hermano, 1 día.",
+    },
+    {
+        "n": 5, "tipo": "single",
+        "pregunta": "El pago de las licencias médicas en Chile tiene un tope de:",
+        "opciones": ["90 UF", "11 UF", "60 UF", "Sin tope"],
+        "correctas": ["90 UF"],
+        "explicacion": "Clase 10: las licencias médicas tienen un tope de pago de 90 UF.",
+    },
+    {
+        "n": 6, "tipo": "single",
+        "pregunta": "Un área está compuesta mayoritariamente por personas nacidas alrededor de 1990. Según las preferencias por generación, ¿qué valorarían más en un plan de beneficios?",
+        "opciones": ["Flexibilidad, desarrollo profesional y experiencias",
+                     "Seguridad laboral, pensiones y salud",
+                     "Equilibrio trabajo-familia y estabilidad",
+                     "Beneficios digitales e inclusión"],
+        "correctas": ["Flexibilidad, desarrollo profesional y experiencias"],
+        "explicacion": "Clase 10: los Millennials / Generación Y (1980-2000) valoran flexibilidad, desarrollo profesional y experiencias. (Baby Boomers: seguridad/pensiones; Gen X: equilibrio/estabilidad; Gen Z: digital/inclusión.)",
+    },
+    {
+        "n": 7, "tipo": "single",
+        "pregunta": "En la implementación de un plan de beneficios, ¿qué etapa se ubica inmediatamente entre la 'Segmentación' y la 'Comunicación'?",
+        "opciones": ["Diseño", "Diagnóstico", "Implementación", "Evaluación"],
+        "correctas": ["Diseño"],
+        "explicacion": "Clase 10: orden de las 7 etapas: Diagnóstico → Definición de objetivos → Segmentación → Diseño → Comunicación → Implementación → Evaluación.",
+    },
+    {
+        "n": 8, "tipo": "single",
+        "pregunta": "Una multinacional estadounidense con filial en Chile compara su gasto en beneficios. ¿Qué rangos corresponden, respectivamente, al nivel internacional (EE.UU./Europa) y a las grandes empresas en Chile?",
+        "opciones": ["20%-30% internacional y 15%-25% en Chile",
+                     "15%-25% internacional y 20%-30% en Chile",
+                     "10%-20% en ambos casos",
+                     "30%-40% internacional y 25%-35% en Chile"],
+        "correctas": ["20%-30% internacional y 15%-25% en Chile"],
+        "explicacion": "Clase 10: en EE.UU./Europa los beneficios alcanzan 20%-30% del paquete total; en Chile, las grandes empresas destinan 15%-25% del presupuesto de compensaciones.",
+    },
+    {
+        "n": 9, "tipo": "single",
+        "pregunta": "Según la clase (Chile vs. el mundo), ¿cuántos convenios internacionales de seguridad social vigentes tiene Chile?",
+        "opciones": ["28", "10", "40", "15"],
+        "correctas": ["28"],
+        "explicacion": "Clase 10: Chile cuenta con 28 convenios internacionales de seguridad social vigentes.",
+    },
+    {
+        "n": 10, "tipo": "single",
+        "pregunta": "Todos los siguientes son principios fundamentales de un HPWS, EXCEPTO:",
+        "opciones": ["Concentración de la toma de decisiones en la jefatura",
+                     "Igualitarismo y compromiso",
+                     "Información compartida y confianza",
+                     "Desarrollo del conocimiento"],
+        "correctas": ["Concentración de la toma de decisiones en la jefatura"],
+        "explicacion": "Clase 10: los 4 principios son igualitarismo y compromiso, información compartida y confianza, desarrollo del conocimiento y vínculos desempeño-recompensa; concentrar las decisiones contradice el igualitarismo.",
+    },
+    {
+        "n": 11, "tipo": "single",
+        "pregunta": "Un subgerente dotado de facultades generales de administración pretende negociar colectivamente. Según el Art. 305:",
+        "opciones": ["No puede negociar colectivamente",
+                     "Puede negociar como cualquier trabajador",
+                     "Solo puede negociar si el sindicato lo autoriza",
+                     "Puede negociar, pero sin derecho a huelga"],
+        "correctas": ["No puede negociar colectivamente"],
+        "explicacion": "Art. 305: no pueden negociar colectivamente los gerentes, subgerentes, agentes y apoderados dotados, a lo menos, de facultades generales de administración.",
+    },
+    {
+        "n": 12, "tipo": "single",
+        "pregunta": "Si SÍ existe un instrumento colectivo vigente, según el Art. 348 la huelga debe votarse dentro de:",
+        "opciones": ["Los últimos 5 días de vigencia del instrumento",
+                     "Los últimos 5 días de un total de 45 desde la presentación del proyecto",
+                     "Los primeros 5 días de la negociación",
+                     "Cualquier momento durante su vigencia"],
+        "correctas": ["Los últimos 5 días de vigencia del instrumento"],
+        "explicacion": "Art. 348: con instrumento vigente, la huelga se vota en los últimos 5 días de su vigencia; sin instrumento, en los últimos 5 días de un total de 45 contados desde la presentación del proyecto.",
+    },
+    {
+        "n": 13, "tipo": "single",
+        "pregunta": "Respecto de los plazos de la huelga, ¿cuál combinación es correcta?",
+        "opciones": ["Última oferta del empleador: 2 días antes; convocatoria a votación: 5 días antes",
+                     "Última oferta: 5 días antes; convocatoria: 2 días antes",
+                     "Ambas con 5 días de anticipación",
+                     "Ambas con 2 días de anticipación"],
+        "correctas": ["Última oferta del empleador: 2 días antes; convocatoria a votación: 5 días antes"],
+        "explicacion": "Art. 346: la última oferta del empleador se presenta con a lo menos 2 días de anticipación; Art. 347: la convocatoria a votación, con a lo menos 5 días.",
+    },
+    {
+        "n": 14, "tipo": "single",
+        "pregunta": "Una empresa concede gran autonomía a cada operación país, pero a la vez las integra en un todo coordinado globalmente; NO opera como una empresa nacional con el mundo por mercado. ¿De qué tipo es?",
+        "opciones": ["Transnacional", "Global", "Multinacional", "Internacional"],
+        "correctas": ["Transnacional"],
+        "explicacion": "Clase 14: la transnacional combina autonomía local con integración global; la global, en cambio, opera muy similar a una empresa nacional pero con el mundo como mercado.",
+    },
+    {
+        "n": 15, "tipo": "single",
+        "pregunta": "Una empresa chilena con filial en Brasil contrata a un ejecutivo argentino para dirigir esa filial. Según la clasificación por nacionalidad, ese ejecutivo es:",
+        "opciones": ["Ciudadano de un tercer país", "Expatriado",
+                     "Ciudadano del país anfitrión", "Repatriado"],
+        "correctas": ["Ciudadano de un tercer país"],
+        "explicacion": "Clase 14: su nacionalidad (argentina) difiere de la del país de origen de la empresa (Chile) y de la del país anfitrión (Brasil): es ciudadano de un tercer país.",
+    },
+    {
+        "n": 16, "tipo": "single",
+        "pregunta": "¿Cuál afirmación distingue correctamente a la OIT de la ITUC?",
+        "opciones": ["La OIT pertenece a la ONU y promueve el trabajo decente; la ITUC es la confederación internacional de sindicatos",
+                     "La ITUC pertenece a la ONU; la OIT agrupa a los sindicatos",
+                     "Ambas son organismos sindicales sin relación con la ONU",
+                     "La OIT representa a los empleadores y la ITUC a los gobiernos"],
+        "correctas": ["La OIT pertenece a la ONU y promueve el trabajo decente; la ITUC es la confederación internacional de sindicatos"],
+        "explicacion": "Clase 14: la OIT (ONU) promueve el trabajo decente y erradica el trabajo forzoso/infantil y la discriminación; la ITUC es la Confederación Internacional de Sindicatos.",
+    },
+    {
+        "n": 17, "tipo": "single",
+        "pregunta": "Una empresa pasa de 99 a 105 trabajadores. ¿Qué organismo de prevención queda ahora obligada a constituir que antes no?",
+        "opciones": ["El Departamento de Prevención de Riesgos", "El Comité Paritario",
+                     "Una mutualidad propia", "Un sindicato"],
+        "correctas": ["El Departamento de Prevención de Riesgos"],
+        "explicacion": "Cap 12: el Departamento de Prevención de Riesgos es obligatorio sobre 100 trabajadores; el Comité Paritario ya lo era sobre 25.",
+    },
+    {
+        "n": 18, "tipo": "single",
+        "pregunta": "La cotización del seguro de la Ley 16.744 incluye una prima fija (básica) de:",
+        "opciones": ["0,95%", "7%", "10%", "2,5%"],
+        "correctas": ["0,95%"],
+        "explicacion": "Cap 12 / Ley 16.744: prima fija de 0,95% más una cotización adicional variable según la siniestralidad y la actividad (industria).",
+    },
+]
+
+
+# ---------------------------------------------------------------------------
 # Cuestionarios disponibles
 # ---------------------------------------------------------------------------
 BANCOS = {
@@ -1540,6 +1699,7 @@ BANCOS = {
     "📗 Guía de Estudio del Certamen": PREGUNTAS_GUIA,
     "📕 Guía — Nivel Avanzado": PREGUNTAS_GUIA_AVANZADO,
     "📙 Certamen — Nivel Difícil": PREGUNTAS_CERTAMEN_DIFICIL,
+    "🧠 Nivel Experto (18 difíciles)": PREGUNTAS_EXPERTO,
 }
 
 
@@ -1736,16 +1896,39 @@ st.markdown(
 # --- ¿Terminó el test? ---
 if st.session_state.idx >= n_total:
     pct = (st.session_state.aciertos / n_total) * 100
-    if pct >= 80:
-        emoji, msg = "🏆", "¡Excelente dominio!"
-    elif pct >= 50:
-        emoji, msg = "💪", "¡Buen trabajo, sigue repasando!"
+
+    # Nota en escala chilena 1,0 – 7,0 (exigencia 60% = nota 4,0)
+    EXIGENCIA = 0.60
+    _p = pct / 100.0
+    if _p < EXIGENCIA:
+        nota = 1.0 + (_p / EXIGENCIA) * 3.0
     else:
-        emoji, msg = "📚", "A repasar un poco más."
+        nota = 4.0 + ((_p - EXIGENCIA) / (1 - EXIGENCIA)) * 3.0
+    nota = round(nota, 1)
+    nota_txt = f"{nota:.1f}".replace(".", ",")
+
+    if nota >= 6.0:
+        emoji, msg = "🏆", "¡Excelente! Dominio sobresaliente."
+    elif nota >= 4.0:
+        emoji, msg = "💪", "¡Aprobado! Buen trabajo."
+    else:
+        emoji, msg = "📚", "Reprobado — a repasar un poco más."
     st.success(f"### ¡Test terminado! {emoji}\n\n"
                f"{msg}\n\n"
                f"Puntaje final: **{st.session_state.aciertos} / {n_total}**  "
                f"({pct:.1f}%)")
+
+    # Tarjeta con la nota (1,0 – 7,0)
+    _nota_color = "#16a34a" if nota >= 4.0 else "#dc2626"
+    st.markdown(
+        f'<div style="text-align:center; background:#fff; border-radius:18px; padding:16px; '
+        f'box-shadow:0 8px 22px rgba(20,30,60,0.08); margin:4px 0 12px 0">'
+        f'<div style="font-size:0.75rem; color:#9aa3b5; font-weight:600; letter-spacing:.04em">'
+        f'NOTA FINAL · ESCALA 1,0 – 7,0 (60% de exigencia)</div>'
+        f'<div style="font-size:2.6rem; font-weight:700; color:{_nota_color}; line-height:1.1">{nota_txt}</div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
 
     falladas = st.session_state.get("falladas", [])
     if falladas:
